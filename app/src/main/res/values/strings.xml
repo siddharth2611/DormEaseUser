@@ -10,4 +10,45 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <string name="monday_breakfast">Bread Butter, Jam, Corn Flakes, Boiled Eggs, Milk+Tea, Sauce</string>
+    <string name="monday_lunch">Rajma, Aloo Shimla Mirch, Roti, Plain Rice, Boondi Raita, Salad + Pickle</string>
+    <string name="monday_snacks">Samosa, Chhole + Meethi Chutney, Green Chutney, Tea</string>
+    <string name="monday_dinner">Paneer Do Pyaza, Dal Tadka, Roti, Jeera Rice, Salad + Pickle</string>
+
+    <!-- Tuesday Menu -->
+    <string name="tuesday_breakfast">Idli, Sambar, Coconut Chutney, Milk+Tea</string>
+    <string name="tuesday_lunch">Chole, Rice, Roti, Cucumber Salad, Pickle</string>
+    <string name="tuesday_snacks">Pakora, Green Chutney, Tea</string>
+    <string name="tuesday_dinner">Kadhi Pakora, Jeera Rice, Chapati, Salad, Pickle</string>
+
+    <!-- Wednesday Menu -->
+    <string name="wednesday_breakfast">Paratha, Curd, Pickle, Milk+Tea</string>
+    <string name="wednesday_lunch">Dal Makhani, Plain Rice, Roti, Salad, Curd</string>
+    <string name="wednesday_snacks">Paneer Tikka, Tea</string>
+    <string name="wednesday_dinner">Matar Paneer, Roti, Rice, Pickle</string>
+
+    <!-- Thursday Menu -->
+    <string name="thursday_breakfast">Poha, Upma, Milk+Tea</string>
+    <string name="thursday_lunch">Aloo Gobi, Roti, Rice, Salad, Curd</string>
+    <string name="thursday_snacks">Vegetable Spring Roll, Tea</string>
+    <string name="thursday_dinner">Palak Paneer, Roti, Rice, Salad</string>
+
+    <!-- Friday Menu -->
+    <string name="friday_breakfast">Chilla, Curd, Milk+Tea</string>
+    <string name="friday_lunch">Butter Chicken, Roti, Rice, Salad</string>
+    <string name="friday_snacks">Dhokla, Tea</string>
+    <string name="friday_dinner">Rajma, Rice, Roti, Salad</string>
+
+    <!-- Saturday Menu -->
+    <string name="saturday_breakfast">Sandwich, Milk+Tea</string>
+    <string name="saturday_lunch">Pulao, Raita, Salad</string>
+    <string name="saturday_snacks">Pakora, Tea</string>
+    <string name="saturday_dinner">Paneer Butter Masala, Roti, Rice, Salad</string>
+
+    <!-- Sunday Menu -->
+    <string name="sunday_breakfast">Aloo Paratha, Curd, Milk+Tea</string>
+    <string name="sunday_lunch">Chicken Curry, Roti, Rice, Salad</string>
+    <string name="sunday_snacks">Samosa, Tea</string>
+    <string name="sunday_dinner">Dal Fry, Roti, Rice, Salad</string>
 </resources>

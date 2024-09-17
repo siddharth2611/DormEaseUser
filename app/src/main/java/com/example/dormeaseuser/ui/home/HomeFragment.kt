@@ -1,6 +1,7 @@
 package com.example.dormeaseuser.ui.home
 
 import android.content.Context
+import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -61,24 +62,42 @@ class HomeFragment : Fragment() {
         // Setup buttons (just like in the previous code)
         val messButton: ImageButton = root.findViewById(R.id.imagebt_hr)
         messButton.setOnClickListener {
-            // Handle mess button click here
+            val intent = Intent(requireContext(), MessActivity::class.java)
+            startActivity(intent)
         }
+
 
         val complaintsButton: ImageButton = root.findViewById(R.id.imagebt_bp)
         complaintsButton.setOnClickListener {
-            // Handle complaints button click here
+            val intent = Intent(requireContext(), ComplaintsActivity::class.java)
+            startActivity(intent)
         }
 
         // Other buttons setup (e.g., attendance, council)...
         val attendanceButton: ImageButton = root.findViewById(R.id.imagebt_attendance)
         attendanceButton.setOnClickListener {
-            // Handle attendance button click here
+            val intent = Intent(requireContext(), AttendanceActivity::class.java)
+            startActivity(intent)
         }
 
         val councilButton: ImageButton = root.findViewById(R.id.imagebt_council)
         councilButton.setOnClickListener {
-            // Handle council button click here
+            val intent = Intent(requireContext(), CouncilActivity::class.java)
+            startActivity(intent)
         }
+
+        val leaveButton: ImageButton = root.findViewById(R.id.imagebt_leave)
+        leaveButton.setOnClickListener {
+            val intent = Intent(requireContext(), LeaveActivity::class.java)
+            startActivity(intent)
+        }
+
+        val notificationButton: ImageButton = root.findViewById(R.id.imagebt_notifications)
+        notificationButton.setOnClickListener {
+            val intent = Intent(requireContext(), NotificationsActivity::class.java)
+            startActivity(intent)
+        }
+
 
         return root
     }

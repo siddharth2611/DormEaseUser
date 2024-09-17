@@ -12,6 +12,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DormEaseUser"
         tools:targetApi="31">
+
+        <activity
+            android:name=".ui.home.NotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.LeaveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.AttendanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.CouncilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.ComplaintsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.MessActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -19,7 +38,6 @@
             android:theme="@style/Theme.DormEaseUser.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
