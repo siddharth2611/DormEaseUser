@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mess"
+            android:icon="@drawable/baseline_food_bank_24"
+            android:title="Mess" />
+        <item
+            android:id="@+id/complaints"
+            android:icon="@drawable/baseline_report_problem_24"
+            android:title="Complaints" />
+        <item
+            android:id="@+id/attendance"
+            android:icon="@drawable/baseline_checklist_24"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/council"
+            android:icon="@drawable/baseline_people_24"
+            android:title="Council" />
+        <item
+            android:id="@+id/leave"
+            android:icon="@drawable/baseline_call_missed_outgoing_24"
+            android:title="Leave" />
+        <item
+            android:id="@+id/notfy"
+            android:icon="@drawable/baseline_notifications_24"
+            android:title="Notifications" />
+    </group>
+</menu>

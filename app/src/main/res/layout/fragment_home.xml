@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Dark Mode Switch -->
+        <Switch
+            android:id="@+id/theme_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark Mode"
+            android:layout_gravity="end" />
+
+        <!-- Hostel Image Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            card_view:cardCornerRadius="16dp"
+            android:layout_marginBottom="8dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hostel" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="9dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dlogo" />
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Mess and Complaints Buttons Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <!-- Mess Button -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                card_view:cardCornerRadius="16dp"
+                android:layout_marginEnd="4dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/imagebt_hr"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:background="@drawable/mess"
+                        android:scaleType="fitCenter"
+                        android:contentDescription="Mess" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="Mess"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:background="#80000000"
+                        android:padding="4dp" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Complaints Button -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                card_view:cardCornerRadius="16dp"
+                android:layout_marginStart="4dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/imagebt_bp"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:background="@drawable/complaints"
+                        android:scaleType="fitCenter"
+                        android:contentDescription="Complaints" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="Complaints"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:background="#80000000"
+                        android:padding="4dp" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <!-- More Options Row (You can extend this section as needed) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <!-- Laundry Button -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                card_view:cardCornerRadius="16dp"
+                android:layout_marginEnd="4dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/imagebt_attendance"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:background="@drawable/attendance"
+                        android:scaleType="fitCenter"
+                        android:contentDescription="Laundry" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="Attendance"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:background="#80000000"
+                        android:padding="4dp" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Recreation Button -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                card_view:cardCornerRadius="16dp"
+                android:layout_marginStart="4dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/imagebt_council"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:background="@drawable/council"
+                        android:scaleType="fitCenter"
+                        android:contentDescription="Recreation" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="Council"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:background="#80000000"
+                        android:padding="4dp" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <!-- Another Row Example (You can add as many rows as necessary) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <!-- Transportation Button -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                card_view:cardCornerRadius="16dp"
+                android:layout_marginEnd="4dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/imagebt_leave"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:background="@drawable/leave"
+                        android:scaleType="fitCenter"
+                        android:contentDescription="Transport" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="Leave"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:background="#80000000"
+                        android:padding="4dp" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Security Button -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                card_view:cardCornerRadius="16dp"
+                android:layout_marginStart="4dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/imagebt_notifications"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:background="@drawable/notif"
+                        android:scaleType="fitCenter"
+                        android:contentDescription="Security" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="Notifications"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:background="#80000000"
+                        android:padding="4dp" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
