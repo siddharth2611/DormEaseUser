@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.home.RegisterComplaintsActivity"
+    android:background="@drawable/gradient_background">
+
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:entries="@array/type_array"
+        android:paddingLeft="10dp"
+        android:background="@drawable/spinner_background"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextRoomNo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittext_background"
+        android:hint="Room no."
+        android:inputType="number"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/editTextProblem"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:hint="Problem"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:textColorHint="@color/black"
+        android:hint="Description......."
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="16dp"
+        android:gravity="top" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:textSize="18sp" />
+
+</LinearLayout>

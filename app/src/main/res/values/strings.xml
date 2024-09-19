@@ -51,4 +51,11 @@
     <string name="sunday_lunch">Chicken Curry, Roti, Rice, Salad</string>
     <string name="sunday_snacks">Samosa, Tea</string>
     <string name="sunday_dinner">Dal Fry, Roti, Rice, Salad</string>
+    <string-array name="type_array" color="@color/black">
+        <item>Electrician</item>
+        <item>Plumber</item>
+        <item>Carpenter</item>
+        <item>House-keeping</item>
+        <item>Others</item>
+    </string-array>
 </resources>
